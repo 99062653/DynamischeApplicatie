@@ -39,6 +39,12 @@ img.avatar {
     height: 150px;
 }
 
+.knop {
+    position: relative;
+    left: 200px;
+    text-decoration: none;
+}
+
 h2 {
     font-weight: 1000;
     position: relative;
