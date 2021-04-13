@@ -1,11 +1,9 @@
-<?php 
-
-$queryAantal = "SELECT MAX(id) FROM characters";
-$result = $conn->prepare($queryAantal);
-$result->execute();
-
-
+<?php
+//Kijkt hoeveel id's der zijn.
+$sth = $conn->query("SELECT * FROM characters WHERE id");
+$count = $sth->rowCount();
+//echo 'query count is '.$count;
 ?>
 <html>
-    <header>Alle <?php ?> characters uit je database</header>
+    <header>Alle <span id="aantal"><?php echo $count ?></span> characters uit je database</header>
 </html>
