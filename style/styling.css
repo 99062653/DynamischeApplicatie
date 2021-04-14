@@ -4,7 +4,7 @@ body {
     background-color: #808080;
 }
 
-header, #content, footer {
+header, #content, footer, #contentCHC{
     padding: 5px;
     width: 1000px;
     margin: 0 auto;
@@ -23,6 +23,11 @@ header {
     grid-template-columns: 500px 500px;
 }
 
+#contentCHC {
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+
 #content > div {
     width: 500px;
     height: 250px;
@@ -39,10 +44,52 @@ img.avatar {
     height: 150px;
 }
 
-.knop {
+img.avatarCHC {
     position: relative;
+
+}
+
+.indexlist {
+    position: relative;
+    top: -125px;
+    right: 70px;
+}
+
+ul {
+    list-style-type: none;
+}
+.knop {
+    color: black;
+    position: relative;
+    bottom: 75px;
     left: 200px;
     text-decoration: none;
+}
+
+.terug {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    left: 390px;
+    bottom: 30px;
+} 
+
+.info {
+    border: 3px solid black;
+}
+
+.bio {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+i.fa-arrow-left {
+    margin-right: 5px;
+}
+
+i.fa-expand {
+    margin-right: 5px;
 }
 
 h2 {
