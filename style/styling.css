@@ -58,6 +58,7 @@ img.avatarCHC {
 ul {
     list-style-type: none;
 }
+
 .knop {
     color: black;
     position: relative;
@@ -70,10 +71,9 @@ ul {
     color: black;
     font-size: 15px;
     text-decoration: none;
-    position: relative;
-    left: 390px;
-    bottom: 30px;
-} 
+    position: fixed;
+    right: 450px;
+}    
 
 .info {
     border: 3px solid black;
@@ -84,13 +84,10 @@ ul {
     margin-right: 25px;
 }
 
-i.fa-arrow-left {
+i.fa-arrow-left, i.fa-expand, i.fa-heartbeat, i.fa-bolt, i.fa-shield {
     margin-right: 5px;
 }
 
-i.fa-expand {
-    margin-right: 5px;
-}
 
 h2 {
     font-weight: 1000;
